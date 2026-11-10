@@ -1,1 +1,115 @@
-{"schema":1,"queue":"4.1","locality":"Чугуев","tz":"Europe/Kyiv","generatedAt":null,"lastSuccessAt":null,"days":{},"sources":[]}
+{
+ "schema": 1,
+ "queue": "4.1",
+ "locality": "Чугуев",
+ "tz": "Europe/Kyiv",
+ "generatedAt": "2026-11-10T08:39:23.733Z",
+ "lastSuccessAt": "2026-11-10T08:39:23.733Z",
+ "days": {
+  "2026-11-10": {
+   "slots": [
+    "on",
+    "on",
+    "on",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "on",
+    "on",
+    "on",
+    "on",
+    "on",
+    "on",
+    "on",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "on",
+    "on",
+    "on",
+    "on",
+    "on",
+    "on",
+    "on",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off",
+    "off"
+   ],
+   "intervals": [
+    {
+     "from": "00:00",
+     "to": "01:30",
+     "state": "on"
+    },
+    {
+     "from": "01:30",
+     "to": "05:00",
+     "state": "off"
+    },
+    {
+     "from": "05:00",
+     "to": "08:30",
+     "state": "on"
+    },
+    {
+     "from": "08:30",
+     "to": "15:30",
+     "state": "off"
+    },
+    {
+     "from": "15:30",
+     "to": "19:00",
+     "state": "on"
+    },
+    {
+     "from": "19:00",
+     "to": "24:00",
+     "state": "off"
+    }
+   ],
+   "scheduleUpdatedAt": "2026-11-09T22:03:00.000Z",
+   "firstSeenAt": "2026-11-10T08:39:23.733Z",
+   "confirmedAt": "2026-11-10T08:39:23.733Z"
+  }
+ },
+ "sources": [
+  {
+   "id": "oe-outage-data",
+   "name": "OE_OUTAGE_DATA (данные Харьковобленерго)",
+   "url": "https://raw.githubusercontent.com/yaroslav2901/OE_OUTAGE_DATA/main/data/Kharkivoblenerho.json",
+   "independent": false,
+   "lastAttemptAt": "2026-11-10T08:39:23.733Z",
+   "lastSuccessAt": "2026-11-10T08:39:23.733Z",
+   "lastAcceptedAt": "2026-11-10T08:39:23.733Z",
+   "sourceParsedAt": "2026-11-09T22:03:14.054Z",
+   "sourceToday": "2026-11-10",
+   "scheduleUpdatedAt": "2026-11-09T22:03:00.000Z",
+   "newestDate": "2026-11-10",
+   "status": "ok",
+   "message": ""
+  }
+ ],
+ "lastAcceptedAt": "2026-11-10T08:39:23.733Z"
+}
