@@ -76,7 +76,6 @@ for (const src of SOURCES) {
     if (old.scheduleUpdatedAt && r.updatedAt < old.scheduleUpdatedAt) {
       st.status = 'rollback'; st.message = 'Источник вернул более старую версию графика, она проигнорирована. Показана последняя принятая.';
     } else {
-      st.scheduleUpdatedAt = r.updatedAt;
       let accepted = 0;
       for (const d of dates) {
         if (d < minD || d > maxD) continue;
@@ -86,10 +85,13 @@ for (const src of SOURCES) {
         else if (!same(was.slots, slots)) newEntries.push({ ...entry, type: 'changed', before: C.intervals(was.slots), after: C.intervals(slots), diff: C.diffSlots(was.slots, slots) });
         out.days[d] = { slots, intervals: C.intervals(slots), scheduleUpdatedAt: was && same(was.slots, slots) ? was.scheduleUpdatedAt : r.updatedAt, firstSeenAt: was?.firstSeenAt || nowIso, confirmedAt: nowIso };
       }
-      for (const [d, was] of Object.entries(out.days)) // дата пропала из источника
-        if (d >= today && d <= maxD && !r.days[d] && !was.missingSince) { was.missingSince = nowIso; newEntries.push({ detectedAt: nowIso, checkedBefore: old.lastAcceptedAt || null, date: d, type: 'missing', scheduleUpdatedAt: r.updatedAt, before: was.intervals }); }
       if (accepted === 0) { st.status = 'stale_source'; st.message = `В источнике нет графика на ${today} и ближайшие дни (самый новый день: ${st.newestDate || 'нет'}).`; }
-      else { st.status = 'ok'; st.lastAcceptedAt = nowIso; st.message = r.warnings.join('; '); }
+      else {
+        st.scheduleUpdatedAt = r.updatedAt;
+        for (const [d, was] of Object.entries(out.days)) // дата пропала из источника
+          if (d >= today && d <= maxD && !r.days[d] && !was.missingSince) { was.missingSince = nowIso; newEntries.push({ detectedAt: nowIso, checkedBefore: old.lastAcceptedAt || null, date: d, type: 'missing', scheduleUpdatedAt: r.updatedAt, before: was.intervals }); }
+        st.status = 'ok'; st.lastAcceptedAt = nowIso; st.message = r.warnings.join('; ');
+      }
     }
   } catch (e) { out.days = backup; newEntries.length = n0; st.status = 'error'; st.message = String(e.message || e); }
   out.sources.push(st);
