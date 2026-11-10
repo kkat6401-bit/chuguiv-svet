@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0e131a">
+<title>Свет · Чугуев · очередь 4.1</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>Свет · Чугуев</h1>
+    <p class="sub">Харьковская область · очередь <b>4.1</b> <span class="clock" id="clock"></span></p>
+  </header>
+  <section id="notices" aria-live="polite"></section>
+  <section class="card status" id="status"></section>
+  <section class="card">
+    <div class="tabs" role="tablist"><button id="tabToday" class="on">Сегодня</button><button id="tabTomorrow">Завтра</button></div>
+    <p class="dayinfo" id="dayinfo"></p>
+    <div class="tl" id="timeline"></div>
+    <div class="ticks"><span>0</span><span>6</span><span>12</span><span>18</span><span>24</span></div>
+    <div class="legend"><i class="on"></i>есть <i class="off"></i>нет <i class="unk"></i>неизвестно</div>
+    <ul class="list" id="intervals"></ul>
+  </section>
+  <details class="card"><summary>История изменений</summary><div id="history"></div></details>
+  <details class="card"><summary>Источники данных</summary><div id="sources"></div></details>
+  <p class="foot">График — это план, а не измерение. Фактические отключения могут отличаться. Сайт неофициальный.</p>
+</main>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
