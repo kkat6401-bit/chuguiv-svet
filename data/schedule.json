@@ -3,96 +3,9 @@
  "queue": "4.1",
  "locality": "Чугуев",
  "tz": "Europe/Kyiv",
- "generatedAt": "2026-11-18T21:11:16.029Z",
- "lastSuccessAt": "2026-11-18T21:11:16.029Z",
+ "generatedAt": "2026-11-18T22:06:23.841Z",
+ "lastSuccessAt": "2026-11-18T22:06:23.841Z",
  "days": {
-  "2026-11-17": {
-   "slots": [
-    "on",
-    "on",
-    "on",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "off",
-    "off",
-    "off"
-   ],
-   "intervals": [
-    {
-     "from": "00:00",
-     "to": "01:30",
-     "state": "on"
-    },
-    {
-     "from": "01:30",
-     "to": "05:00",
-     "state": "off"
-    },
-    {
-     "from": "05:00",
-     "to": "12:00",
-     "state": "on"
-    },
-    {
-     "from": "12:00",
-     "to": "15:30",
-     "state": "off"
-    },
-    {
-     "from": "15:30",
-     "to": "22:30",
-     "state": "on"
-    },
-    {
-     "from": "22:30",
-     "to": "24:00",
-     "state": "off"
-    }
-   ],
-   "scheduleUpdatedAt": "2026-11-16T21:06:00.000Z",
-   "firstSeenAt": "2026-11-16T21:20:13.091Z",
-   "confirmedAt": "2026-11-17T21:28:00.943Z"
-  },
   "2026-11-18": {
    "slots": [
     "off",
@@ -178,7 +91,7 @@
    ],
    "scheduleUpdatedAt": "2026-11-17T17:18:00.000Z",
    "firstSeenAt": "2026-11-17T17:46:58.834Z",
-   "confirmedAt": "2026-11-18T21:11:16.029Z"
+   "confirmedAt": "2026-11-18T22:06:23.841Z"
   },
   "2026-11-19": {
    "slots": [
@@ -260,7 +173,7 @@
    ],
    "scheduleUpdatedAt": "2026-11-18T19:11:00.000Z",
    "firstSeenAt": "2026-11-18T19:17:15.235Z",
-   "confirmedAt": "2026-11-18T21:11:16.029Z"
+   "confirmedAt": "2026-11-18T22:06:23.841Z"
   }
  },
  "sources": [
@@ -269,9 +182,9 @@
    "name": "OE_OUTAGE_DATA (данные Харьковобленерго)",
    "url": "https://raw.githubusercontent.com/yaroslav2901/OE_OUTAGE_DATA/main/data/Kharkivoblenerho.json",
    "independent": false,
-   "lastAttemptAt": "2026-11-18T21:11:16.029Z",
-   "lastSuccessAt": "2026-11-18T21:11:16.029Z",
-   "lastAcceptedAt": "2026-11-18T21:11:16.029Z",
+   "lastAttemptAt": "2026-11-18T22:06:23.841Z",
+   "lastSuccessAt": "2026-11-18T22:06:23.841Z",
+   "lastAcceptedAt": "2026-11-18T22:06:23.841Z",
    "sourceParsedAt": "2026-11-18T19:11:20.070Z",
    "sourceToday": "2026-11-18",
    "scheduleUpdatedAt": "2026-11-18T19:11:00.000Z",
@@ -280,5 +193,5 @@
    "message": ""
   }
  ],
- "lastAcceptedAt": "2026-11-18T21:11:16.029Z"
+ "lastAcceptedAt": "2026-11-18T22:06:23.841Z"
 }
