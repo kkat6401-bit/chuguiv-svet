@@ -2,6 +2,40 @@
  "schema": 1,
  "entries": [
   {
+   "detectedAt": "2026-11-19T21:28:23.517Z",
+   "checkedBefore": "2026-11-19T20:37:40.973Z",
+   "date": "2026-11-20",
+   "scheduleUpdatedAt": "2026-11-19T21:17:00.000Z",
+   "type": "added",
+   "after": [
+    {
+     "from": "00:00",
+     "to": "13:30",
+     "state": "on"
+    },
+    {
+     "from": "13:30",
+     "to": "17:00",
+     "state": "off"
+    },
+    {
+     "from": "17:00",
+     "to": "20:30",
+     "state": "on"
+    },
+    {
+     "from": "20:30",
+     "to": "22:00",
+     "state": "off"
+    },
+    {
+     "from": "22:00",
+     "to": "24:00",
+     "state": "on"
+    }
+   ]
+  },
+  {
    "detectedAt": "2026-11-18T19:17:15.235Z",
    "checkedBefore": "2026-11-18T18:15:05.464Z",
    "date": "2026-11-19",
