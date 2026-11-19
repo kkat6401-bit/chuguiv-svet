@@ -3,96 +3,9 @@
  "queue": "4.1",
  "locality": "Чугуев",
  "tz": "Europe/Kyiv",
- "generatedAt": "2026-11-19T21:28:23.517Z",
- "lastSuccessAt": "2026-11-19T21:28:23.517Z",
+ "generatedAt": "2026-11-19T22:20:50.511Z",
+ "lastSuccessAt": "2026-11-19T22:20:50.511Z",
  "days": {
-  "2026-11-18": {
-   "slots": [
-    "off",
-    "off",
-    "off",
-    "off",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "on",
-    "on"
-   ],
-   "intervals": [
-    {
-     "from": "00:00",
-     "to": "02:00",
-     "state": "off"
-    },
-    {
-     "from": "02:00",
-     "to": "05:30",
-     "state": "on"
-    },
-    {
-     "from": "05:30",
-     "to": "12:30",
-     "state": "off"
-    },
-    {
-     "from": "12:30",
-     "to": "19:30",
-     "state": "on"
-    },
-    {
-     "from": "19:30",
-     "to": "23:00",
-     "state": "off"
-    },
-    {
-     "from": "23:00",
-     "to": "24:00",
-     "state": "on"
-    }
-   ],
-   "scheduleUpdatedAt": "2026-11-17T17:18:00.000Z",
-   "firstSeenAt": "2026-11-17T17:46:58.834Z",
-   "confirmedAt": "2026-11-18T22:06:23.841Z"
-  },
   "2026-11-19": {
    "slots": [
     "on",
@@ -255,7 +168,7 @@
    ],
    "scheduleUpdatedAt": "2026-11-19T21:17:00.000Z",
    "firstSeenAt": "2026-11-19T21:28:23.517Z",
-   "confirmedAt": "2026-11-19T21:28:23.517Z"
+   "confirmedAt": "2026-11-19T22:20:50.511Z"
   }
  },
  "sources": [
@@ -264,16 +177,16 @@
    "name": "OE_OUTAGE_DATA (данные Харьковобленерго)",
    "url": "https://raw.githubusercontent.com/yaroslav2901/OE_OUTAGE_DATA/main/data/Kharkivoblenerho.json",
    "independent": false,
-   "lastAttemptAt": "2026-11-19T21:28:23.517Z",
-   "lastSuccessAt": "2026-11-19T21:28:23.517Z",
-   "lastAcceptedAt": "2026-11-19T21:28:23.517Z",
-   "sourceParsedAt": "2026-11-19T21:17:09.612Z",
-   "sourceToday": "2026-11-19",
-   "scheduleUpdatedAt": "2026-11-19T21:17:00.000Z",
+   "lastAttemptAt": "2026-11-19T22:20:50.511Z",
+   "lastSuccessAt": "2026-11-19T22:20:50.511Z",
+   "lastAcceptedAt": "2026-11-19T22:20:50.511Z",
+   "sourceParsedAt": "2026-11-19T22:03:04.184Z",
+   "sourceToday": "2026-11-20",
+   "scheduleUpdatedAt": "2026-11-19T22:03:00.000Z",
    "newestDate": "2026-11-20",
    "status": "ok",
    "message": ""
   }
  ],
- "lastAcceptedAt": "2026-11-19T21:28:23.517Z"
+ "lastAcceptedAt": "2026-11-19T22:20:50.511Z"
 }
