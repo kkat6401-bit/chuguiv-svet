@@ -3,101 +3,9 @@
  "queue": "4.1",
  "locality": "Чугуев",
  "tz": "Europe/Kyiv",
- "generatedAt": "2026-11-24T21:32:01.088Z",
- "lastSuccessAt": "2026-11-24T21:32:01.088Z",
+ "generatedAt": "2026-11-24T22:33:46.243Z",
+ "lastSuccessAt": "2026-11-24T22:33:46.243Z",
  "days": {
-  "2026-11-23": {
-   "slots": [
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "off",
-    "off",
-    "off",
-    "off",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "off",
-    "off",
-    "off",
-    "on",
-    "on",
-    "on",
-    "on",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "off",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on",
-    "on"
-   ],
-   "intervals": [
-    {
-     "from": "00:00",
-     "to": "06:00",
-     "state": "on"
-    },
-    {
-     "from": "06:00",
-     "to": "08:00",
-     "state": "off"
-    },
-    {
-     "from": "08:00",
-     "to": "11:30",
-     "state": "on"
-    },
-    {
-     "from": "11:30",
-     "to": "13:00",
-     "state": "off"
-    },
-    {
-     "from": "13:00",
-     "to": "15:00",
-     "state": "on"
-    },
-    {
-     "from": "15:00",
-     "to": "18:30",
-     "state": "off"
-    },
-    {
-     "from": "18:30",
-     "to": "24:00",
-     "state": "on"
-    }
-   ],
-   "scheduleUpdatedAt": "2026-11-22T22:03:00.000Z",
-   "firstSeenAt": "2026-11-22T22:15:58.763Z",
-   "confirmedAt": "2026-11-23T21:28:10.239Z"
-  },
   "2026-11-24": {
    "slots": [
     "on",
@@ -255,7 +163,7 @@
    ],
    "scheduleUpdatedAt": "2026-11-24T19:18:00.000Z",
    "firstSeenAt": "2026-11-24T19:39:03.577Z",
-   "confirmedAt": "2026-11-24T21:32:01.088Z"
+   "confirmedAt": "2026-11-24T22:33:46.243Z"
   }
  },
  "sources": [
@@ -264,16 +172,16 @@
    "name": "OE_OUTAGE_DATA (данные Харьковобленерго)",
    "url": "https://raw.githubusercontent.com/yaroslav2901/OE_OUTAGE_DATA/main/data/Kharkivoblenerho.json",
    "independent": false,
-   "lastAttemptAt": "2026-11-24T21:32:01.088Z",
-   "lastSuccessAt": "2026-11-24T21:32:01.088Z",
-   "lastAcceptedAt": "2026-11-24T21:32:01.088Z",
-   "sourceParsedAt": "2026-11-24T19:18:25.295Z",
-   "sourceToday": "2026-11-24",
-   "scheduleUpdatedAt": "2026-11-24T19:18:00.000Z",
+   "lastAttemptAt": "2026-11-24T22:33:46.243Z",
+   "lastSuccessAt": "2026-11-24T22:33:46.243Z",
+   "lastAcceptedAt": "2026-11-24T22:33:46.243Z",
+   "sourceParsedAt": "2026-11-24T22:00:00.515Z",
+   "sourceToday": "2026-11-25",
+   "scheduleUpdatedAt": "2026-11-24T22:00:00.000Z",
    "newestDate": "2026-11-25",
    "status": "ok",
    "message": ""
   }
  ],
- "lastAcceptedAt": "2026-11-24T21:32:01.088Z"
+ "lastAcceptedAt": "2026-11-24T22:33:46.243Z"
 }
