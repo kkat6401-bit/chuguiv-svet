@@ -3,8 +3,8 @@
  "queue": "4.1",
  "locality": "Чугуев",
  "tz": "Europe/Kyiv",
- "generatedAt": "2026-11-24T20:30:15.182Z",
- "lastSuccessAt": "2026-11-24T20:30:15.182Z",
+ "generatedAt": "2026-11-24T21:32:01.088Z",
+ "lastSuccessAt": "2026-11-24T21:32:01.088Z",
  "days": {
   "2026-11-23": {
    "slots": [
@@ -173,7 +173,7 @@
    ],
    "scheduleUpdatedAt": "2026-11-23T19:21:00.000Z",
    "firstSeenAt": "2026-11-23T19:44:01.049Z",
-   "confirmedAt": "2026-11-24T20:30:15.182Z"
+   "confirmedAt": "2026-11-24T21:32:01.088Z"
   },
   "2026-11-25": {
    "slots": [
@@ -255,7 +255,7 @@
    ],
    "scheduleUpdatedAt": "2026-11-24T19:18:00.000Z",
    "firstSeenAt": "2026-11-24T19:39:03.577Z",
-   "confirmedAt": "2026-11-24T20:30:15.182Z"
+   "confirmedAt": "2026-11-24T21:32:01.088Z"
   }
  },
  "sources": [
@@ -264,9 +264,9 @@
    "name": "OE_OUTAGE_DATA (данные Харьковобленерго)",
    "url": "https://raw.githubusercontent.com/yaroslav2901/OE_OUTAGE_DATA/main/data/Kharkivoblenerho.json",
    "independent": false,
-   "lastAttemptAt": "2026-11-24T20:30:15.182Z",
-   "lastSuccessAt": "2026-11-24T20:30:15.182Z",
-   "lastAcceptedAt": "2026-11-24T20:30:15.182Z",
+   "lastAttemptAt": "2026-11-24T21:32:01.088Z",
+   "lastSuccessAt": "2026-11-24T21:32:01.088Z",
+   "lastAcceptedAt": "2026-11-24T21:32:01.088Z",
    "sourceParsedAt": "2026-11-24T19:18:25.295Z",
    "sourceToday": "2026-11-24",
    "scheduleUpdatedAt": "2026-11-24T19:18:00.000Z",
@@ -275,5 +275,5 @@
    "message": ""
   }
  ],
- "lastAcceptedAt": "2026-11-24T20:30:15.182Z"
+ "lastAcceptedAt": "2026-11-24T21:32:01.088Z"
 }
